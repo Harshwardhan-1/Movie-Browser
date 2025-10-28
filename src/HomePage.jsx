@@ -10,7 +10,7 @@ export default function HomePage(){
 
     const handle=async ()=>{
         const api_key="48002d20";
-        const url=`http://www.omdbapi.com/?apikey=${api_key}&s=${input}&y=${input2}&type=${input3}`;
+        const url=`https://www.omdbapi.com/?apikey=${api_key}&s=${input}&y=${input2}&type=${input3}`;
         try{
             const response=await fetch(url);
             const data=await response.json();
