@@ -1,0 +1,73 @@
+.btn{
+height: 30px;
+width: 80px;
+border-radius: 15px;
+outline: none;
+border: none;
+margin-bottom: 25px;
+margin-top: 10px;
+transition: all 1s ease-in-out;
+margin-left: 10px;
+font-weight: 500;
+background-color: orange;
+color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: orange;
+    transform: scale(1.09);
+    box-shadow: 0 4px 15px rgba(255, 140, 0, 0.5);
+}
+
+
+
+
+
+.harsh{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+
+.harsh2{
+    position: relative;
+    display: inline-block;
+}
+
+
+.btn2{
+    position: absolute;
+    top: 83%;
+    left: 28%;
+    height: 30px;
+    width: 100px;
+    transition: all 1s ease-in-out;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    background-color: orange;
+    color: white;
+}
+.btn2:hover{
+    background-color: white;
+    color: orange;
+    transform: scale(1.09);
+   box-shadow: 0 0 15px 3px rgba(255, 69, 0, 0.8);
+}
+
+
+
+.harsh3{
+    height: 300px;
+    width: 240px;
+    border-radius: 12px;
+    transition: all 1s ease-in-out;
+}
+
+.harsh3:hover{
+    transform: scale(1.09);
+    box-shadow: 0 0 15px 3px rgba(255, 69, 0, 0.8);
+}

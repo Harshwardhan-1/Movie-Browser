@@ -1,0 +1,46 @@
+.h2{
+    display: none;
+}
+
+.image-setter{
+    margin-left: 300px;
+    margin-top: 40px;
+    border-radius: 15px;
+    transition: all 1s ease-in;
+    margin-bottom: 20px;
+}
+
+.image-setter:hover{
+    transform: scale(1.09);
+    box-shadow: 0 0 15px 3px rgba(255, 69, 0, 0.8);
+}
+
+
+
+.back{
+       height: 30px;
+    width: 80px;
+    border-radius: 15px;
+outline: none;
+border: none;
+margin-bottom: 25px;
+margin-top: 10px;
+transition: all 1s ease-in-out;
+margin-left: 620px;
+font-weight: 500;
+background-color: orange;
+color: white;
+font-weight: 500;
+transition: all 1s ease-in-out;
+}
+
+
+.back:hover{
+    transform: scale(1.09);
+    color: orange;
+    background-color: white;
+}
+
+.text-setter{
+    color: orange;
+}

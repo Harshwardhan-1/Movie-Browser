@@ -1,0 +1,83 @@
+.input1{
+ width: 320px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 490px;
+}
+
+.input2{
+     width: 320px;
+     margin-left: 490px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.input3{
+     width: 320px;
+  padding: 12px 15px;
+  margin-left: 490px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  width: 350px;
+  margin-top: 15px;
+}
+
+
+
+
+.button {
+  padding: 12px 25px;
+  background-color: #ff4757;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px #0000004d;
+  transition: all 1s ease-in-out;
+  margin-left: 615px;
+  background-color: orange;
+  color: white;
+  margin-top: 19px;
+}
+
+
+.button:hover {
+  background-color: white;
+  color: orange;
+  transform: scale(1.05);
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: orange;
+}
